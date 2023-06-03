@@ -4,12 +4,12 @@ const app = express();
 
 // This is the HTTP server and create a new instance of the http server object.
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send("<h1>Hello World!</h1>");
 });
 
 // This is the HTTP server and create a new instance of the http server object.
 app.get('/about', (req, res) => {
-    res.send('About: I am a teapot!');
+    res.send('My name is Ahmed Wahba and I love coding and play games');
 });
 
 
