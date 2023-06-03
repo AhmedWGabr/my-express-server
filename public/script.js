@@ -65,6 +65,7 @@ function clear() {
   display.value = '';
 }
 
+// add keyboard events listener to calculator app
 document.addEventListener('keydown', (event) => {
   switch (event.key ) {
     case 'Escape':
