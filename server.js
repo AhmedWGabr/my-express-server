@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 // This is the HTTP server and create a new instance of the http server object.
 app.get('/about', (req, res) => {
-    res.send('About Page!');
+    res.send('About: I am a teapot!');
 });
 
 
